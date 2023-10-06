@@ -1,4 +1,4 @@
-# **Welcome to the CSIT227 Object Oriented Programming Repository!**
+# **🎉Welcome to the CSIT227 Object Oriented Programming Repository!🎉**
 Hello and thank you for visiting F2's CSIT227 Object Oriented Programming repository! 🚀
 
 ### About This Repository
