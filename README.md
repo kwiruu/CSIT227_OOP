@@ -20,7 +20,7 @@ We believe in the power of collaboration and learning from each other. Feel free
 
 3. Pull Requests: Have a great idea for an improvement or a bug fix? Submit a pull request, and we'll review it together. 📨📥
 
-Connect with Us 📞
+## Connect with Us 📞
 We encourage you to connect with your fellow students and engage in discussions around object-oriented programming. You can also reach out to us via email or through our discussion board here on GitHub.
 
 Thank you for being a part of our coding journey. Let's learn and grow together in the world of Object Oriented Programming!
