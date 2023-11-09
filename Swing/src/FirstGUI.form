@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FirstGUI">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="6" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="657" height="268"/>
+    </constraints>
+    <properties>
+      <background color="-15921907"/>
+      <foreground color="-4474285"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e5941" layout-manager="GridLayoutManager" row-count="5" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="5" col-span="8" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15921907"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="c857e">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="63cdf" class="javax.swing.JLabel" binding="enter_name">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3436747"/>
+              <enabled value="true"/>
+              <font size="18"/>
+              <foreground color="-3436747"/>
+              <text value="Enter your name:"/>
+            </properties>
+          </component>
+          <component id="e96f6" class="javax.swing.JRadioButton" binding="rbAttackHeli">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15921907"/>
+              <foreground color="-3436747"/>
+              <selected value="true"/>
+              <text value="Attack Helicopter"/>
+            </properties>
+          </component>
+          <component id="52d53" class="javax.swing.JRadioButton" binding="rbFemale">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15921907"/>
+              <foreground color="-3436747"/>
+              <text value="Female"/>
+            </properties>
+          </component>
+          <component id="e647f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="107" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-4479629"/>
+              <text value="Gender"/>
+            </properties>
+          </component>
+          <component id="4638f" class="javax.swing.JTextField" binding="name_input">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10264993"/>
+              <font size="18"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="77226" class="javax.swing.JRadioButton" binding="rbMale">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15921907"/>
+              <foreground color="-3436747"/>
+              <text value="Male"/>
+            </properties>
+          </component>
+          <vspacer id="600c3">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="67ea3" class="javax.swing.JButton" binding="clickMeForHotButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3436747"/>
+              <text value="Click me for hot videos"/>
+            </properties>
+          </component>
+          <component id="9d311" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="6" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10264993"/>
+              <editable value="false"/>
+              <font size="12"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="cda51" class="javax.swing.JCheckBox" binding="cCheckBox" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15921907"/>
+              <foreground color="-3436747"/>
+              <text value="C++"/>
+            </properties>
+          </component>
+          <component id="55f9c" class="javax.swing.JCheckBox" binding="JAVACheckBox" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15921907"/>
+              <foreground color="-3436747"/>
+              <text value="JAVA"/>
+            </properties>
+          </component>
+          <component id="2cf12" class="javax.swing.JCheckBox" binding="cCheckBox1" default-binding="true">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15921907"/>
+              <foreground color="-3436747"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="ed7dc" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10264993"/>
+              <model>
+                <item value="COURSE:"/>
+                <item value="BSCS"/>
+                <item value="BSIT"/>
+                <item value="BSCE"/>
+                <item value="BSBMA"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a1028" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3436747"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8522b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15921907"/>
+              <text value="PERSONAL HUB"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="a9b17" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12746704"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="e96f6"/>
+      <member id="77226"/>
+      <member id="52d53"/>
+    </group>
+  </buttonGroups>
+</form>
